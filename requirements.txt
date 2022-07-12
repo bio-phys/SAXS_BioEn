@@ -1,0 +1,3 @@
+numpy
+--extra-index-url https://gitlab.mpcdf.mpg.de/api/v4/projects/2155/packages/pypi/simple
+bioen
