@@ -1,11 +1,5 @@
 numpy
 mpmath
-
-# install the bioen "manylinux" package that includes all dependencies in binary form
-#--extra-index-url https://gitlab.mpcdf.mpg.de/api/v4/projects/2155/packages/pypi/simple
-
-# natively from pypi
 bioen
-
-# add h+- directly from github
+# add h+- directly from github until the pypi package is finalized
 git+https://github.com/bio-phys/hplusminus
