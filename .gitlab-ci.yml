@@ -1,0 +1,14 @@
+pages:
+    image: image: gitlab-registry.mpcdf.mpg.de/mpcdf/documentation/docs-ci:20210626
+    tags:
+        - docker
+    script:
+        - pushd .binder_landing_page
+        - pandoc --metadata pagetitle="SAXS BioEn" -c pandoc.css -s index.md -o index.html
+        - popd ..
+        - cp .binder_landing_page/* public
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
