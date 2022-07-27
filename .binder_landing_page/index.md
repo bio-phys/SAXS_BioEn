@@ -11,7 +11,7 @@ the goodness-of-refinement.
 The Jupyter notebook runs using Python 3 and the current versions of the bioen
 and hplusminus software.
 
-## Try SAXS\_BioEn interactively in the Cloud!
+## Try SAXS\_BioEn interactively in a Jupyter notebook in the Cloud!
 
 Click the link below to launch a computational environment (JupyterLab)
 in the Cloud to try SAXS\_BioEn.
