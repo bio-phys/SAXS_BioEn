@@ -5,9 +5,9 @@ pages:
     tags:
         - docker
     script:
-        - pushd .binder_landing_page
+        - cd .binder_landing_page
         - pandoc --metadata pagetitle="SAXS BioEn" -c pandoc.css -s index.md -o index.html
-        - popd
+        - cd ..
         - mkdir public
         - cp .binder_landing_page/* public
     artifacts:
