@@ -1,16 +1,19 @@
-# SAXS\_BioEn
+## Try BioEn without installation for SAXS data !
 
-## Try SAXS\_BioEn without installation!
+Click the link below to launch a computational environment (JupyterLab) in the Cloud to try the SAXS\_BioEn notebook. 
 
-[Launch SAXS\_BioEn example on Binder!](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2FMPIBP-Hummer%2FSAXS_BioEn.git/HEAD?labpath=SAXS_BioEn_example.ipynb)
+---
+**Importantly**, shut down JupyterLab properly via the menu (File -> Shut Down) to free resources for other users.
 
-Click the link above to launch a computational environment (JupyterLab) in the Cloud to try the SAXS\_BioEn notebook.
+---
 
-**Important:** Shut down JupyterLab properly via the menu
-(File -> Shut Down) to free resources for other users. Note that the interactive
-session is only temporary and all its files will be deleted after termination.
+[Link: Launch SAXS\_BioEn example on Binder!](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2FMPIBP-Hummer%2FSAXS_BioEn.git/HEAD?labpath=SAXS_BioEn_example.ipynb)
 
-## Description
+After launching, open the SAXS\_BioEn\_example.ipynb and explore!
+
+Note that the interactive session is only temporary and all its files will be deleted after termination.
+
+### Description
 
 Using a simple example, the Jupyter notebook SAXS\_BioEn\_example.ipynb shows how
 to refine structural ensembles with BioEn (https://github.com/bio-phys/bioen)
