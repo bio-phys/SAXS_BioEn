@@ -1,5 +1,7 @@
 pages:
-    image: pandoc/core
+    image:
+      name: pandoc/core
+      entrypoint: [""]
     tags:
         - docker
     script:
