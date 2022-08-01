@@ -2,10 +2,11 @@
 
 Click the link below to launch a computational environment (JupyterLab) in the Cloud to try the SAXS\_BioEn notebook. 
 
----
+----
+
 **Importantly**, shut down JupyterLab properly via the menu (File -> Shut Down) to free resources for other users.
 
----
+----
 
 [Link: Launch SAXS\_BioEn example on Binder!](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2FMPIBP-Hummer%2FSAXS_BioEn.git/HEAD?labpath=SAXS_BioEn_example.ipynb)
 

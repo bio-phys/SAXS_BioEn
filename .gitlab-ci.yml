@@ -1,12 +1,13 @@
 pages:
-    # The pandoc tool is readily available with the Docker image used to generate the MPCDF docs, so we just use that ...
-    image: gitlab-registry.mpcdf.mpg.de/mpcdf/documentation/docs-ci:20210626
+    image:
+      name: pandoc/core
+      entrypoint: [""]
     tags:
         - docker
     script:
-        - pushd .binder_landing_page
+        - cd .binder_landing_page
         - pandoc --metadata pagetitle="SAXS BioEn" -c pandoc.css -s index.md -o index.html
-        - popd
+        - cd ..
         - mkdir public
         - cp .binder_landing_page/* public
     artifacts:
