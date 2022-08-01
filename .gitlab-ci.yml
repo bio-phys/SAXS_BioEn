@@ -1,6 +1,5 @@
 pages:
-    # The pandoc tool is readily available with the Docker image used to generate the MPCDF docs, so we just use that ...
-    image: gitlab-registry.mpcdf.mpg.de/mpcdf/documentation/docs-ci:20210626
+    image: pandoc/core
     tags:
         - docker
     script:
