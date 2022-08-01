@@ -9,7 +9,7 @@ Click the link below to launch a computational environment (JupyterLab) in the C
 
 [Link: Launch SAXS\_BioEn example on Binder!](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2FMPIBP-Hummer%2FSAXS_BioEn.git/HEAD?labpath=SAXS_BioEn_example.ipynb)
 
-After launching, open the SAXS\_BioEn\_example.ipynb and explore!
+After launching, open the **SAXS\_BioEn\_example.ipynb** notebook and explore!
 
 Note that the interactive session is only temporary and all its files will be deleted after termination.
 
