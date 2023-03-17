@@ -7,3 +7,9 @@ the h-statistic and (h,$\chi^2$)-statistic provided by the hplusminus software (
 the goodness-of-refinement. 
 
 The Jupyter notebook runs using Python 3 and the current versions of the bioen and hplusminus software. 
+
+**Try online without installation!**
+
+You can try out the example online and without installation using Binder:
+
+https://mpibp-hummer.pages.mpcdf.de/SAXS_BioEn/
