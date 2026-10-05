@@ -1,8 +1,7 @@
 numpy
 scipy
 matplotlib
-mpmath
 jupyter
-bioen
-# add h+- directly from github until the pypi package is finalized
-git+https://github.com/bio-phys/hplusminus
+# bioen >= 0.1.4 and hplusminus >= 1.0.2 support NumPy 1.x and NumPy 2.x
+bioen>=0.1.4
+hplusminus>=1.0.2
