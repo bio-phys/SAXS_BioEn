@@ -1,5 +1,8 @@
-numpy<1.24
+numpy
+scipy
+matplotlib
 mpmath
+jupyter
 bioen
 # add h+- directly from github until the pypi package is finalized
 git+https://github.com/bio-phys/hplusminus
