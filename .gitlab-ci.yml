@@ -3,7 +3,7 @@ pages:
       name: pandoc/core
       entrypoint: [""]
     tags:
-        - docker
+        - mpcdf-shared
     script:
         - cd .binder_landing_page
         - pandoc --metadata pagetitle="SAXS BioEn" -c pandoc.css -s index.md -o index.html
