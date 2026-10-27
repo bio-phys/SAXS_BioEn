@@ -24,3 +24,10 @@ jupyter notebook SAXS_BioEn_example.ipynb
 Binary wheels of bioen are available for Linux (x86_64, glibc >= 2.28). On other platforms,
 pip builds bioen from source, which requires a C compiler and the GSL library,
 see https://github.com/bio-phys/bioen for details. 
+
+**Try online without installation!**
+
+You can try out the example **online and without installation** using Binder:
+
+https://bio-phys.pages.mpcdf.de/SAXS_BioEn/
+
